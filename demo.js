@@ -1,4 +1,4 @@
-const wc = require('./src/wordscount')
+const wc = require('.')
 
 const text = 'Love to hate to love'
 const textWordsCount = wc(text)
