@@ -4,7 +4,6 @@
   "homepage": "https://github.com/reed665/wordscount",
   "main": "index.js",
   "scripts": {
-    "publish": "npm publish --access=public",
     "start": "node demo.js",
     "test": "jest",
     "test:coverage": "jest --coverage"
