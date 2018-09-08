@@ -1,5 +1,7 @@
 # wordscount
 
+Simple function to help you count words in a text
+
 ## Installation
 ```bash
 npm i @reed665/wordscount
