@@ -1,6 +1,6 @@
 {
   "name": "@reed665/wordscount",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/reed665/wordscount",
   "main": "index.js",
   "scripts": {
