@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "publish": "npm publish --access=public",
     "start": "node demo.js",
     "test": "jest",
     "test:coverage": "jest --coverage"
