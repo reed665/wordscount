@@ -2,12 +2,12 @@
 
 ## Installation
 ```bash
-npm i wordscount
+npm i @reed665/wordscount
 ```
 
 ## Usage
 ```javascript
-import wc from 'wordscount'
+import wc from 'reed665/wordscount'
 
 const text = 'Love to hate to love'
 const textWordsCount = wc(text)
