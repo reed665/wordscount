@@ -1,7 +1,7 @@
 {
   "name": "@reed665/wordscount",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "homepage": "https://github.com/reed665/wordscount",
   "main": "index.js",
   "scripts": {
     "publish": "npm publish --access=public",
