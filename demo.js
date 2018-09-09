@@ -1,7 +1,12 @@
-const wc = require('.')
+const wordscount = require('.')
+const getWordsArray = require('.').getWordsArray
 
 const text = 'Love to hate to love'
-const textWordsCount = wc(text)
+
+const wordsArray = getWordsArray(text)
+console.log(wordsArray)
+
+const textWordsCount = wordscount(text)
 
 // Object.keys(textWordsCount) // ['love', 'to', 'hate']
 // console(textWordsCount.love) // 2
