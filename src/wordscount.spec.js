@@ -7,7 +7,13 @@ describe('wordscount', () => {
     expect(typeof wc(text)).toBe('object')
   })
 
-  it('counts words correctly', () => {
+  it('throws an error if first argument is not a string', () => {
+    const text = 42
+
+    expect(() => wc(text)).toThrowError('string expected but got number')
+  })
+
+  it('counts words correctly if separated with spaces only', () => {
     const text = 'Love to hate to love'
 
     expect(wc(text).love).toBe(2)

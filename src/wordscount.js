@@ -1,4 +1,8 @@
 function wordscount(text) {
+  if (typeof text !== 'string') {
+    throw new Error(`string expected but got ${typeof text}`)
+  }
+
   const wordsArray = text.toLowerCase().split(' ')
   return wordsArray.reduce((wcObj, word) => {
     return {
